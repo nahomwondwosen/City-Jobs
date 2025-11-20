@@ -1,0 +1,88 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+  margin: 0;
+}
+header {
+  background: #111;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: bold;
+  color: #00ff99;
+  font-size: 24px;
+}
+nav a {
+  margin-left: 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #1c1c1c;
+}
+.hero span {
+  color: #00ff99;
+}
+.search-bar {
+  margin-top: 20px;
+}
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+}
+.search-bar button {
+  padding: 10px 20px;
+  background: #00ff99;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+.categories {
+  padding: 40px 20px;
+  background: #181818;
+}
+.categories .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.card {
+  background: #2c2c2c;
+  padding: 20px;
+  flex: 1 1 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+.how-it-works {
+  background: #222;
+  padding: 40px 20px;
+  text-align: center;
+}
+.how-it-works ol {
+  list-style: none;
+  padding: 0;
+}
+.how-it-works li {
+  margin: 10px 0;
+}
+footer {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  color: #aaa;
+}
+.footer-links a {
+  color: #888;
+  text-decoration: none;
+  margin: 0 5px;
+}
